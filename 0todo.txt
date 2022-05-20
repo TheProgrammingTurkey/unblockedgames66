@@ -10,25 +10,3 @@ find . -type f -exec sed -i '/fileName/d' {} +
 
 
 DO NOT PRESS MAKE PRETTIER!!!
-
-find . -type f -exec sed -i 's/<li class="games"><a href=\"ballBlast.html/<li class="games"><a href=\"baldisBasics.html\">Baldis Basics<\/a><\/li>\n          &/g' {} +
-
-find . -type f -exec sed -i 's/<li class="games"><a href=\"tankTrouble.html/<li class="games"><a href=\"swipeBasketball.html\">Swipe Basketball<\/a><\/li>\n          &/g' {} +
-
-find . -type f -exec sed -i 's/<li class="games"><a href=\"darkRoom.html/<li class="games"><a href=\"cubeform.html\">Cubeform<\/a><\/li>\n          &/g' {} +
-
-find . -type f -exec sed -i 's/<li class="games"><a href=\"fidgetSpinnerSimulator.html/<li class="games"><a href=\"electronDash.html\">Electron Dash<\/a><\/li>\n          &/g' {} +
-
-find . -type f -exec sed -i 's/<li class="games"><a href=\"pixelBearAdventure.html/<li class="games"><a href=\"paperio.html\">Paperio<\/a><\/li>\n          &/g' {} +
-
-find . -type f -exec sed -i 's/<li class="games"><a href=\"2dRocketLeague.html/<li class="games"><a href=\"2dMiniGolf.html\">2d Mini Golf<\/a><\/li>\n          &/g' {} +
-
-find . -type f -exec sed -i 's/<li class="games"><a href=\"rollyVortex.html/<li class="games"><a href=\"riseHigher.html\">Rise Higher<\/a><\/li>\n          &/g' {} +
-
-find . -type f -exec sed -i 's/<li class="games"><a href=\"superMarioAdvance.html/<li class="games"><a href=\"subwaySurfers.html\">Subway Surfers<\/a><\/li>\n          &/g' {} +
-
-find . -type f -exec sed -i 's/<li class="games"><a href=\"trapTheMouse.html/<li class="games"><a href=\"tabs.html\">TABS<\/a><\/li>\n          &/g' {} +
-
-find . -type f -exec sed -i 's/<li class="games"><a href=\"tetris.html/<li class="games"><a href=\"templeRun.html\">Temple Run<\/a><\/li>\n          &/g' {} +
-
-find . -type f -exec sed -i 's/<li class="games"><a href=\"trapTheMouse.html/<li class="games"><a href=\"towerStack.html\">Tower Stack<\/a><\/li>\n          &/g' {} +
