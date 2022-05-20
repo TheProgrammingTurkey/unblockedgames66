@@ -1,0 +1,268 @@
+hr { 
+  width: 90%;
+  margin: auto;
+  margin-bottom: 20px;
+  border-color: #c8dbed;
+  border-top: 0px;
+}
+body.swal2-shown > [aria-hidden="true"] {
+  transition: 0.1s filter;
+  filter: blur(50px);
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+li a {
+  display: block;
+  color: #000000;
+  padding: 8px 16px;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+li a.active {
+  background-color: #92b6db;
+  color: white;
+}
+
+li a:hover {
+  
+  transition-duration: .4s;
+  background-color: #92b6db;
+  color:white;
+  transform: scale(1.04);
+}
+
+h1 {
+  text-align: center;
+  font-size: 6.5vw;
+  color: #b4c9e4;
+  font-weight: bold;
+  font-family: sans-serif;
+  
+}
+h2 {
+  font-size: 48px;
+  color: #497bbd;
+  font-weight: bold;
+  font-family: sans-serif;
+  
+}
+h3 {
+  color: red;
+}
+
+body {
+  background-color: #343a40;
+  font-family: "Acme", sans-serif;
+}
+.column {
+  float: left;
+  padding: 10px;
+}
+
+.left {
+  width: 17%;
+}
+
+.right {
+  width: 83%;
+  margin: auto;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+* {
+  box-sizing: border-box;
+}
+iframe{
+  width: 100%;
+  height: 98vh;
+  position: relative;
+  border: 0px;
+  border-radius: 20px;
+}
+.top {
+  list-style-type: none;
+  margin: auto;
+  padding: 0;
+  overflow: hidden;
+  width: 90%;
+  margin-top: 10px;
+  background-color: transparent;
+  border-radius: 0px;
+}
+
+.topLink {
+  float: left;
+  background-color: #c8dbed;
+  font-size: 15px;
+}
+
+
+li a:hover:not(.active) {
+  background-color: #92b6db;
+  color: white;
+  transition-duration: 0.4s;
+}
+
+p {
+  font-size: 2vw;
+  margin: auto;
+  margin-top: 0px;
+  color: #c8dbed;
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+
+img {
+  height: 300px;
+  border-radius: 20px;
+  border-width: 0px;
+  margin: 10px;
+}
+
+#searchbar {
+  width: 100%;
+  height: 30px;
+  margin-bottom: 15px;
+  border-width: 0px;
+  border-radius: 5px;
+  padding: 10px 10px;
+}
+
+h4 {
+  font-size: 35px;
+  color: #748cab;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+#gameName {
+  font-size: 5vw;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+#fullScreenButton {
+  margin-top: 0px;
+  width: 66%;
+  height: auto;
+  cursor: pointer;
+}
+
+#gameMaker {
+  margin-bottom: 20px;
+}
+
+#specialPassword {
+  margin-bottom: 40px;
+}
+
+label {
+  font-size: 25px;
+  color: #497bbd;
+  font-weight: bold;
+  font-family:  sans-serif;
+}
+
+h5 {
+  margin-top: 10px;
+  font-size: 3vw;
+  font-weight: bold;
+  color: #b4c9e4;
+  margin-bottom: 0px;
+}
+
+.discorD {
+  font-family: sans-serif;
+  text-decoration: none;
+  position: relative;
+  left: 500px;
+  top: -575px;
+  font-size: 35px;
+  border: none;
+  padding: 15px 32px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 5px;
+  border-color: dodgerBlue;
+  box-shadow: 0 0 8px 0 dodgerBlue;
+  background-color: #92b6db;
+  color:white;
+}
+
+.discorD:hover {
+  transition-duration: .4s;
+  background-color: #92b6db;
+  color:white;
+  transform: scale(1.2);
+}
+
+.input[type="text"] {
+  width: 40%;
+  border: 2px solid #aaaaaa;
+  border-radius: 4px;
+  margin: 8px 0;
+  outline: none;
+  padding: 8px;
+  box-sizing: border-box;
+  transition: 0.3s;
+}
+
+.input[type="text"]:focus {
+  border-color: dodgerBlue;
+  box-shadow: 0 0 8px 0 dodgerBlue;
+}
+
+.link{
+  background-color: #c8dbed;
+  text-decoration:none;
+  color:black;
+  padding: 8px;
+  transition-duration: .4s;
+  border-radius: 7px;
+}
+
+.link:hover{
+  background-color: #92b6db;
+  color:white;
+  transform: scale(1.2);
+    
+
+}
+
+
+@media (width:1920px, height:1080px) {
+  .discorD {
+    position: relative;
+    top: 40;
+    left: 60;
+  }
+  
+  .discorD:hover {
+    transition-duration: .4s;
+    background-color: #92b6db;
+    color:white;
+    transform: scale(1.2);
+  }
+}
+
+@media (width: 375px, height: 667px) {
+  .discorD {
+    position: relative;
+    top: 1000px;
+    left: -900px;
+  }
+}
