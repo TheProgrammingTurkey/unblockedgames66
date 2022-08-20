@@ -4,7 +4,7 @@ if (!location.protocol[5]) {
   location.protocol = "https:";
 }
 document.querySelector("img").onclick = function () {
-  window.location.href = "/index.html";
+  
 };
 
 var game = document.getElementById("iframe");
