@@ -14,3 +14,6 @@ DO NOT PRESS MAKE PRETTIER!!!
 
 fix navbar
 add home button
+
+
+
