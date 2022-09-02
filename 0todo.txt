@@ -12,8 +12,7 @@ find . -type f -exec sed -i '/fileName.html/d' {} +
 
 DO NOT PRESS MAKE PRETTIER!!!
 
-fix navbar
-add home button
+
 
 
 

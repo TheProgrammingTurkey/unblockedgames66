@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="icon" href="https://cdn.glitch.global/7291e345-21ef-440f-a17b-8a85764c9ade/Screenshot_2022-01-10_161756_ccexpress.png?v=1641849861252"/>    
-    <title>Unblocked Games 66 | Duck Life 2</title>
+    <title>Unblocked Games 66 | Learn To Fly</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -106,13 +106,56 @@
       <div class="column right">
         <div>
           <div style="float:left; width: 85%;">
-            <p id="gameName">Duck Life</p>
+            <p id="gameName">Learn To Fly</p>
           </div>
           <div style="float:left; width: 15%;">
-            <img id="fullScreenButton" src="https://cdn.glitch.global/7291e345-21ef-440f-a17b-8a85764c9ade/Screenshot%202022-02-11%2010.27.47%20AM.png?v=1644593288281" onclick="openFullscreen();">
+            <img id="fullScreenButton" src="https://cdn.glitch.global/7291e345-21ef-440f-a17b-8a85764c9ade/Screenshot%202022-02-11%2010.27.47%20AM.png?v=1644593288281" onclick="fullscreen();">
           </div>
         </div>
-        <iframe id="iframe" src="https://www.hoodamath.com/mobile/games/duck-life/game.html?nocheckorient=1"></iframe>
+          <div id="iframe"></div>
+          <script src="https://e9x.github.io/ruffle-example/ruffle.js"></script>
+          <script>
+          var swfobject = {};
+
+          var width = outerWidth;
+          var height = outerHeight;
+
+          swfobject.embedSWF = function (url, cont, width, height) {
+            var ruffle = window.RufflePlayer.newest(),
+              player = Object.assign(
+                document
+                  .getElementById(cont)
+                  .appendChild(ruffle.createPlayer()),
+                {
+                  width: width,
+                  height: height,
+                  style: "width: " + width + "%; height: " + height + "vh",
+                }
+              );
+
+            player.load({ url: url });
+          };
+
+          swfobject.embedSWF(
+            "https://StrangerKO.github.io/learn-to-fly-swf2/learn-to-fly-37895ed4%20(1).swf",
+            "iframe",
+            100,
+            98
+          );
+
+          function fullscreen() {
+            var elem = document.getElementById("iframe");
+            if (elem.requestFullscreen) {
+              elem.requestFullscreen();
+            } else if (elem.msRequestFullscreen) {
+              elem.msRequestFullscreen();
+            } else if (elem.mozRequestFullScreen) {
+              elem.mozRequestFullScreen();
+            } else if (elem.webkitRequestFullscreen) {
+              elem.webkitRequestFullscreen();
+            }
+          }
+        </script>
       </div>
     </div>
   </body>
