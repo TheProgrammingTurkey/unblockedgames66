@@ -6,7 +6,6 @@ find . -type f -exec sed -i 's/<li class="games"><a href=\"fileRightAfter.html/<
 Delete Game: Do not change!!!
 
 
-find . -type f -exec sed -i '/fileName.html/d' {} +
 
 
 
