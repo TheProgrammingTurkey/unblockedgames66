@@ -16,4 +16,4 @@ DO NOT PRESS MAKE PRETTIER!!!
 
 
 
-find . -type f -exec sed -i 's/<li class="games"><a href=\"soccerPhysics.html/<li class="games"><a href=\"snowRider3d.html\">Snow Rider 3d<\/a><\/li>\n          &/g' {} +
+find . -type f -exec sed -i 's/<li class="games"><a href=\"snowRider3d.html/<li class="games"><a href=\"smashKarts.html\">Smash Karts<\/a><\/li>\n          &/g' {} +
