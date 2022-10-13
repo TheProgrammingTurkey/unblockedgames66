@@ -5,6 +5,7 @@ find . -type f -exec sed -i 's/<li class="games"><a href=\"fileRightAfter.html/<
 
 Delete Game: Do not change!!!
 
+find . -type f -exec sed -i 's/<li><a href=\"crossyRoad.html\"><\/a><\/li>/ /g' {} +
 
 
 
@@ -15,3 +16,4 @@ DO NOT PRESS MAKE PRETTIER!!!
 
 
 
+find . -type f -exec sed -i 's/<li class="games"><a href=\"soccerPhysics.html/<li class="games"><a href=\"snowRider3d.html\">Snow Rider 3d<\/a><\/li>\n          &/g' {} +
