@@ -1,294 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/links.dwt" codeOutsideHTMLIsLocked="false" -->
 <head>
-<!-- InstanceBeginEditable name="doctitle" -->
-<title>KidSites.com - Math Sites for Kids</title>
-<!-- InstanceEndEditable -->
-<meta name="Keywords" content="kids, children, kidsites, sites for kids, sites for children, educational" />
-<meta name="Description" content="Your guide to the best sites for kids on the web." />
-<meta http-equiv="Pragma" content="no-cache" />
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-<link href="../css/links.css" rel="stylesheet" type="text/css" />
-<!-- InstanceBeginEditable name="head" -->
-<!-- InstanceEndEditable -->
-<style>
-  body {
-	background:#ffffff;
-	margin:0;
-	padding:0;
-	margin:16px 0px 0px 0px;
-	text-align:center;
-	color: #000000;
-	background:transparent url(../images/new/background2560.png) center top;
-	background-repeat:repeat-y;
-	background-attachment:fixed;
-}
-#container {
-	width:760px;
-	background:#fff;
-	text-align:left;
-	margin-top: 0px;
-	margin-right: auto;
-	margin-bottom: 0;
-	margin-left: auto;
-}
-.homeheader, .header, .h_link, .t_homelinks, .t_link, .t_review, .contact_link, .copytext, .smalltext {
-	font-family:Tahoma, Geneva, Arial, Helvetica, Verdana, sans-serif;
-	font-size:100%;
-	font-style: normal;
-	font-weight: normal;
-}
-.homeheader {
-	font-size: 2.0em;
-	font-weight:bold;
-	font-stretch:semi-condensed;
-	color : #51b0c2;
-	text-align:left;
-	line-height: 0em;
-}
-.header {
-	font-size: 2.5em;
-	letter-spacing:0.01em;
-	font-weight:bold;
-	color : #51b0c2;
-	text-align:left;
-	line-height: 0em;
-}
-.h_link {
-	color : #63afbd;
-	font-size: 1.15em;
-	font-weight:normal;
-	text-align:right;
-	line-height: 1.3em;
-}
-
-.t_homelinks {
-	font-size: 1.3em;
-	color : #508731;
-	text-align:left;
-	line-height: 0.7;
-	font-weight:normal;
-}
-.t_link {
-	color : #508731;
-	font-size: 1.3em;
-	font-weight:normal;
-	text-align:left;
-	line-height: 1.4em;
-}
-.t_review {
-	color : #1e7d8f;
-	font-size: 1.0em;
-	font-weight:normal;
-	text-align:justify;
-	line-height: 1.3em;
-}
-.contact_link {
-	color : #508731;
-	font-size: 1.0em;
-	font-weight:normal;
-	text-align:justify;
-	line-height: 1.3em;
-}
-.copytext {
-	font-size: 0.7em;
-	color : #606060;
-	text-align:center;
-	line-height: 0.4em;
-}
-.smalltext {
-	font-size: 0.7em;
-	color : #707070;
-	text-align:left;
-	line-height: 1.2em;
-}
-#header {
-	background: transparent url(../images/new/kid1a.png) no-repeat center top;
-	width:760px;
-	height:218px;
-}
-#header h1, #header h2 {
-	display:none;
-}
-a:link {
-	color:#508731;
-	text-decoration:none;
-}
-a:hover {
-	color:#bc4b4b;
-	text-decoration:none;
-	border-bottom-width:2px;
-	border-bottom-style:dotted; 
-	border-bottom-color:#cd5c5c;
-}
-a:visited {
-	color:#508731;
-	text-decoration:none;
-}
-a.h_link:link {
-	color:#63afbd;
-	text-decoration:none;
-}
-a.h_link:hover{
-	color:#bc4b4b;
-	text-decoration:none;
-	border-bottom-width:2px;
-	border-bottom-style:dotted;
-	border-bottom-color:#cd5c5c;
-}
-a.h_link:visited {
-	color:#63afbd;
-	text-decoration:none;
-}
-a.t_review:link {
-	color:#508731;
-	text-decoration:underline;
-}
-a.t_review:hover{
-	color:#bc4b4b;
-	text-decoration:underline;
-	border-bottom-width:0px;
-	border-bottom-style:none;
-}
-a.t_review:visited {
-	color:#508731;
-	text-decoration:underline;
-}
-a.contact_link:link {
-	color:#508731;
-	text-decoration:underline;
-}
-a.contact_link:hover{
-	color:#bc4b4b;
-	text-decoration:underline;
-	border-bottom-width:0px;
-	border-bottom-style:none;
-}
-a.contact_link:visited {
-	color:#508731;
-	text-decoration:underline;
-}
-a.gfx:hover{
-	text-decoration:none;
-	border-bottom-width:0px;
-	border-bottom-style:none;
-	opacity:0.75;
-}
-#header h1 {
-	margin:0;
-	padding:10px 0;
-  }
-</style>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+  <link rel="icon"
+    href="https://cdn.glitch.global/7291e345-21ef-440f-a17b-8a85764c9ade/Screenshot_2022-01-10_161756_ccexpress.png?v=1641849861252" />
+  <title>Unblocked Games 66</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-<div id="container">
-  <table width="760" border="0" align="center" cellpadding="0" cellspacing="0">
-    <tr>
-      <td width="350"><a class = "gfx" href="http://www.kidsites.com"><img src="../images/logo_kidsites.gif" alt="KidSites.com" width="249" height="59" border="0" /></a></td>
-      <td width="150" align="right" valign="bottom" class="h_link"><a href="http://www.kidsites.com" class="h_link">Categories</a></td>
-      <td width="80" align="right" valign="bottom" class="h_link"><a href="../about.htm" class="h_link">About</a></td>
-      <td width="90" align="right" valign="bottom" class="h_link"><a href="../privacy.htm" class="h_link">Privacy</a></td>
-      <td width="90" align="right" valign="bottom" class="h_link"><a href="../contact/contact.htm" class="h_link">Contact</a></td>
-    </tr>
-  </table>
-  <br />
-  <table width="760" border="0" align="center" cellpadding="0" cellspacing="0">
-    <tr>
-      <td><div style="text-align:center;"><!-- InstanceBeginEditable name="Header" --><img src="../images/new/h-havefunatkidsites.png" width="760" height="218" alt="Math Sites for Kids" /><!-- InstanceEndEditable --></div></td>
-    </tr>
-  </table>
-  <br />
-  <table width="760" border="0" align="center" cellpadding="0" cellspacing="0">
-    <tr>
-      <td width="560" align="left" valign="top"><!-- InstanceBeginEditable name="Content" -->
-        <p class="header">Math</p>
-        <p><span class="t_link"><a href="http://www.kidsites.com/sites-edu/go/math.php?id=1001">A+ Math</a></span><br />
-          <span class="t_review">This site has plenty of activities and games to help beginning to intermediate math students improve their skills. Flash cards, concentration games, more.</span></p>
-        <p><span class="t_link"><a href="http://www.kidsites.com/sites-edu/go/math.php?id=1002">AAA Math</a></span><br />
-          <span class="t_review">Designed for grades K-8, this comprehensive math resource contains hundreds of pages of basic math skills and randomly-created interactive practice activities.</span></p>
-        <p> <span class="t_link"><a href="http://www.kidsites.com/sites-edu/go/math.php?id=1003">Ask Dr. Math</a></span><br />
-          <span class="t_review">This is a huge resource of answers to math questions for elementary to college students. If you have a question not covered, you can ask Dr. Math!</span></p>
-        <p><span class="t_link"><a href="http://www.kidsites.com/sites-edu/go/math.php?id=1004">Brain Bashers</a></span><br />
-          <span class="t_review">Includes an interesting collection of math, logic, and language puzzles, games, and illusions, separated into easy, medium and hard categories.</span></p>
-        <p><span class="t_link"><a href="http://www.kidsites.com/sites-edu/go/math.php?id=1006">ChiliMath</a></span><br />
-        <span class="t_review"> A great resource that covers key concepts in Algebra, with material that ranges from introductory to advanced. Detailed examples and diagrams help to build confidence in students, as they develop their mathematical skills.</span></p>
-        <p><span class="t_link"><a href="http://www.kidsites.com/sites-edu/go/math.php?id=1005">CoolMath.com</a></span><br />
-        <span class="t_review">Have fun while practicing your math through lots of cool games, activities, and animated demonstrations. Includes coloring pages for young kids, and helpful sections for teachers and parents.</span></p>
-        <p><span class="t_link"><a href="http://www.kidsites.com/sites-edu/go/math.php?id=1007">Figure This!</a></span><br />
-        <span class="t_review">Which shape holds the most popcorn? Can you combine the stamps to make $1.77? These are just a couple of the problems you can ponder in this attractively designed collection of real-world math challenges. Updated regularly; includes resources for parents.</span></p>
-        <p><span class="t_link"><a href="http://www.kidsites.com/sites-edu/go/math.php?id=1008">The Fruit Game</a></span><br />
-          <span class="t_review">Can you be the one who takes the last pieces of fruit from the table? Play this tricky game and find out if you have what it takes to beat the computer! Be sure to read the instructions, and good luck!</span></p>
-        <p><span class="t_link"><a href="http://www.kidsites.com/sites-edu/go/math.php?id=1009">Funbrain Math Arcade</a></span><br />
-          <span class="t_review">Choose your grade level and playing piece, then see if you can beat all 25 animated math games at this fun site.</span></p>
-        <p><span class="t_link"><a href="http://www.kidsites.com/sites-edu/go/math.php?id=1010">Math.com</a></span><br />
-          <span class="t_review">Math.com offers a lot for everyone. Students can find homework help, puzzles, online calculators, and more... teachers can take advantage of lesson plans, classroom resources, and career resources... there's even a section for parents with lots of helpful information.</span></p>
-        <p><span class="t_link"><a href="http://www.kidsites.com/sites-edu/go/math.php?id=1011">Math Advantage</a></span><br />
-          <span class="t_review">Features a nice variety of math activities and games for grades K-8.</span></p>
-        <p><span class="t_link"><a href="http://www.kidsites.com/sites-edu/go/math.php?id=1017">Math Game Time</a></span><br />
-        <span class="t_review">Math Game Time provides visitors with a great selection of fun online math games, for Pre-K to 7th Grade students. Also included are worksheets and videos, curated by educators.</span></p>
-        <p><span class="t_link"><a href="http://www.kidsites.com/sites-edu/go/math.php?id=1012">Math Goodies</a></span><br />
-          <span class="t_review">Lessons and exercises for a variety of math subjects. Includes calculators, puzzles, and MathChat message boards where you can ask questions and share ideas.</span></p>
-        <p><span class="t_link"><a href="http://www.kidsites.com/sites-edu/go/math.php?id=1013">Math in Daily Life</a></span><br />
-          <span class="t_review">Shows how math is used everyday through examples dealing with savings and credit, population growth, cooking, and other common situations.</span></p>
-        <p><span class="t_link"><a href="http://www.kidsites.com/sites-edu/go/math.php?id=1015">Rick's Math Web</a></span><br />
-        <span class="t_review">Pre-kindergarten to high school students looking for a better understanding of math will find over 4,800 problems to help them improve their skills. Problems can be printed in worksheet form and tips and tricks are included for each area of study.</span></p>
-        <p> <span class="t_link"><a href="http://www.kidsites.com/sites-edu/go/math.php?id=1016">Teach R Kids Math</a></span><br />
-          <span class="t_review">Learn number basics, addition, subtraction, fractions, and much more with these interactive online math worksheets. Exercises are designed for preschool through 3rd grade students.</span>        </p>
-      <!-- InstanceEndEditable --></td>
-      <td width="50" align="left" valign="top">&nbsp;</td>
-      <td width="150" align="center" valign="top"><br />
-        <table width="150" border="0" cellspacing="0" cellpadding="0">
-          <tr>
-            <td height="20" colspan="3" align="center"><img src="../images/sponsors/partners.png" width="150" height="20" alt="Partners" /></td>
-          </tr>
-          <tr>
-            <td height="12" colspan="3" align="center"><img src="../images/sponsors/spacer3.png" alt="space" width="1" height="3" /></td>
-          </tr>
-          <tr>
-            <td width="25" height="48" align="center">&nbsp;</td>
-            <td width="100" height="48" align="center"><p><a class = "gfx" href="http://www.ixl.com/promo?partner=kidsites.com&amp;phrase=banner&amp;utm_source=kidsites.com&amp;utm_medium=banner&amp;utm_campaign=partner"><img src="../images/sponsors/ixl.png" alt="IXL Learning" width="100" height="48" border="0" /><br />
-            </a></p></td>
-            <td width="25" height="48" align="center">&nbsp;</td>
-          </tr>
-          <tr>
-            <td height="12" colspan="3" align="center"><img src="../images/sponsors/spacer3.png" alt="space" width="1" height="3" /></td>
-          </tr>
-          <tr>
-            <td width="25" height="58" align="center">&nbsp;</td>
-            <td width="100" height="58" align="center"><a href="http://playtakara.com/" class="gfx"><img src="../images/sponsors/takara.png" alt="Takara" width="100" height="58" border="0" /></a></td>
-            <td width="25" height="58" align="center">&nbsp;</td>
-          </tr>
-          <tr>
-            <td height="24" colspan="3" align="center"><img src="../images/sponsors/spacer3.png" alt="space" width="1" height="3" /></td>
-          </tr>
-          <tr>
-            <td width="25" height="52" align="center">&nbsp;</td>
-            <td width="100" height="52" align="center"><a class = "gfx" href="home.html"><img src="../images/sponsors/kiva.png" alt="Kiva" width="100" height="52" border="0" /></a></td>
-            <td width="25" height="52" align="center">&nbsp;</td>
-          </tr>
-        </table>
-        <br />
-        <table width="150" border="0" cellpadding="0" cellspacing="0">
-          <tr>
-            <td width="10" height="48" align="center" valign="bottom">&nbsp;</td>
-            <td width="140" height="48" align="center" valign="bottom"><a class="gfx" href="http://www.ensenasoft.com/"><img src="../images/sponsors/ensenasoft.png" alt="EnsenaSoft" width="140" height="34" border="0" /></a></td>
-          </tr>
-        </table>
-<br />
-        <a class = "gfx" href="http://www.ixl.com/"><br />
-      </a></td>
-    </tr>
-  </table>
-  <p><img src="../images/border_bottom.png" alt="Border" width="760" height="55" /></p>
-  <p class="copytext"><a href="http://www.kidsites.com">HOME</a> &nbsp;&nbsp;::&nbsp;&nbsp; <a href="../about.htm">ABOUT</a> &nbsp;&nbsp;::&nbsp;&nbsp; <a href="../privacy.htm">PRIVACY</a> &nbsp;&nbsp;::&nbsp;&nbsp; <a href="../sitemap.htm">SITE MAP</a> &nbsp;&nbsp;::&nbsp;&nbsp; <a href="../contact/contact.htm">CONTACT</a><br />
-    <br />
-  </p>
-  <p class="copytext">COPYRIGHT &copy; 1997-2014 KIDSITES.COM<br />
-    <br />
-    <br />
-    <br />
-  </p>
-</div>
+  <script src="script.js" defer></script>
+  <div>
+    <div style="float: left; width: 20%">
+      <img
+        src="https://cdn.glitch.global/7291e345-21ef-440f-a17b-8a85764c9ade/Screenshot_2022-01-10_161756_ccexpress.png?v=1641849861252"
+        style="width: 100%; height: auto" />
+    </div>
+    <div style="float: left; width: 80%">
+      <h1>Unblocked Games 66</h1>
+    </div>
+  </div>
+  <ul class="top">
+      <li><a class="topLink" href="home.html">Home</a></li>    
+      <li><a class="topLink" href="recentAnnouncements.html">Recent Anouncements</a></li>
+      <li><a class="topLink" href="reportABug.html">Report A Bug</a></li>
+      <li><a class="topLink" href="addGame.html">Add A Game</a></li>
+      <li><a class="topLink" href="addAHighscore.html">Add A Highscore</a></li>
+      <li><a class="topLink" href="contactUs.html">Contact Us</a></li>
+      <li><a class="topLink" onclick="window.location.replace('https://dublin.schoology.com/home')">Click In Emergency!</a></li>
+      <li style="float:right;"><a class="topLink" href="credits.html">Credits</a></li>
+    </ul>
+    <hr>
+
+    <div class="row">
+      <div class="column left">
+        <input id="searchbar" onkeyup="search_games()" type="text" name="search" placeholder="Search Games...">
+        <ul>
+          <li class="games"><a href="2048.html">2048</a></li>
+          <li class="games"><a href="2dMiniGolf.html">2d Mini Golf</a></li>
+          <li class="games"><a href="amongUsScratch.html">Among Us Scratch</a></li>
+          <li class="games"><a href="baldisBasics.html">Baldis Basics</a></li>
+          <li class="games"><a href="ballBlast.html">Ball Blast</a></li>
+          <li class="games"><a href="basketBros.html">Basket Bros</a></li>
+          <li class="games"><a href="bottleFlipPro+.html">Bottle Flip Pro +</a></li>
+          <li class="games"><a href="breakout.html">Breakout</a></li>
+          <li class="games"><a href="canYouDraw.html">Can You Draw A Perfect Circle?</a></li>
+          <li class="games"><a href="catchGame.html">Catch Game</a></li>
+          <li class="games"><a href="cookieClicker.html">Cookie Clicker</a></li>
+          <li class="games"><a href="crossyRoad.html">Crossy Road</a></li>
+          <li class="games"><a href="cubeform.html">Cubeform</a></li>
+          <li class="games"><a href="darkRoom.html">Dark Room</a></li>
+          <li class="games"><a href="driftBoss.html">Drift Boss</a></li>
+          <li class="games"><a href="duckLife.html">Duck Life</a></li>
+          <li class="games"><a href="duckLife2.html">Duck Life 2</a></li>
+          <li class="games"><a href="duckLife3.html">Duck Life 3</a></li>
+          <li class="games"><a href="duckLife4.html">Duck Life 4</a></li>
+          <li class="games"><a href="effingWorms.html">Effing Worms</a></li>
+          <li class="games"><a href="electronDash.html">Electron Dash</a></li>
+          <li class="games"><a href="fidgetSpinnerSimulator.html">Fidget Spinner Simulator</a></li>
+          <li class="games"><a href="flappyBird.html">Flappy Bird</a></li>
+          <li class="games"><a href="geometryDash1-3.html">Geometry Dash Levels 1-3</a></li>
+          <li class="games"><a href="geometryDash4-6.html">Geometry Dash Levels 4-6</a></li>
+          <li class="games"><a href="geometryDash7-8.html">Geometry Dash Levels 7-8</a></li>
+          <li class="games"><a href="geometryDash9-13.html">Geometry Dash Levels 9-13</a></li>
+          <li class="games"><a href="gettingOverIt.html">Getting Over It</a></li>
+          <li class="games"><a href="gunMayhem.html">Gun Mayhem</a></li>
+          <li class="games"><a href="gunMayhem2.html">Gun Mayhem 2</a></li>
+          <li class="games"><a href="hillClimbRacing.html">Hill Climb Racing</a></li>
+          <li class="games"><a href="iAmNotARobot.html">I Am Not A Robot</a></li>
+          <li class="games"><a href="jetpackJoyride.html">Jetpack Joyride</a></li>
+          <li class="games"><a href="jumper.html">Jumper</a></li>
+          <li class="games"><a href="learnToFly.html">Learn To Fly</a></li>
+          <li class="games"><a href="minesweeper.html">Minesweeper</a></li>
+          <li class="games"><a href="moborz.html">Moborz</a></li>
+          <li class="games"><a href="papasPizzeria.html">Papas Pizzeria</a></li>
+          <li class="games"><a href="paperMinecraft.html">Paper Minecraft</a></li>
+          <li class="games"><a href="pizzaGame.html">PiZZA the game</a></li>
+          <li class="games"><a href="planeGame.html">Plane Game</a></li>
+          <li class="games"><a href="pong.html">Pong</a></li>
+          <li class="games"><a href="retroBowl.html">Retro Bowl</a></li>
+          <li class="games"><a href="riseHigher.html">Rise Higher</a></li>
+          <li class="games"><a href="rollyVortex.html">Rolly Vortex</a></li>
+          <li class="games"><a href="rooftopSnipers.html">Rooftop Snipers</a></li>
+          <li class="games"><a href="scratchSoccer.html">Scratch Soccer</a></li>
+          <li class="games"><a href="slope.html">Slope</a></li>
+          <li class="games"><a href="smashKarts.html">Smash Karts</a></li>
+          <li class="games"><a href="snowRider3d.html">Snow Rider 3d</a></li>
+          <li class="games"><a href="soccerPhysics.html">Soccer Physics</a></li>
+          <li class="games"><a href="solitare.html">Solitare</a></li>
+          <li class="games"><a href="subwaySurfers.html">Subway Surfers</a></li>
+          <li class="games"><a href="susRun.html">Sus Run</a></li>
+          <li class="games"><a href="susRun2.html">Sus Run 2</a></li>
+          <li class="games"><a href="swingMonkey.html">Swing Monkey</a></li>
+          <li class="games"><a href="swipeBasketball.html">Swipe Basketball</a></li>
+          <li class="games"><a href="templeRun.html">Temple Run</a></li>
+          <li class="games"><a href="theNinja5.html">The Ninja 5</a></li>
+          <li class="games"><a href="theParkingLot.html">The Parking Lot</a></li>
+          <li class="games"><a href="tabs.html">TABS</a></li>
+          <li class="games"><a href="towerStack.html">Tower Stack</a></li>
+          <li class="games"><a href="trapTheMouse.html">Trap The Mouse</a></li>
+          <li class="games"><a href="trexGame.html">T-rex Game</a></li>
+          <li class="games"><a href="tunnelRush.html">Tunnel Rush</a></li>
+          <li class="games"><a href="worldsHardestGame.html">Worlds Hardest Game</a></li>
+          <li class="games"><a href="worldsHardestGame2.html">Worlds Hardest Game 2</a></li>
+          <li class="games"><a href="yetAnotherWorld.html">Yet Another World</a></li>
+        </ul>
+      </div>
+    <div class="column right">
+      <br>
+      <br>
+      <p>
+        Unblocked Games 66 will help you get through a boring day of Language
+        Arts, or will help you take your mind off school in study center. We
+        have a variety of games ranging from Scratch games such as Hill Climb
+        Racing, Bottle Flip Pro +, Construct 3 games such as Billy vs Potato
+        Head, and the 18 Second Challenge, to classic games like 2048 and
+        Tetris. If you feel that we do not have many games that you like, go
+        to the ADD A GAME tab and request us a new game so you can have your
+        favorites on this website. Games are added every week!
+      </p>
+    </div>
+  </div>
 </body>
-<!-- InstanceEnd --></html>
+
+</html>
